@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>CURRENCY CONVERTOR</h1>
+        <div class="amount-wrapper">
+            <h3>amount</h3>
+            <input type="number" id="input1" placeholder="Please enter amount">
+        </div>
+
+        <div class="select-wrapper">
+            <img src="./img/USA.png" alt="flag" width="50" height="50" id="img1">
+            <select class="first-currency" id="currency1">
+                <option value="USD">USD / Dollar</option>
+                <option value="UZS">UZS / Sum</option>
+                <option value="AUD">AUD / Dollar</option>
+                <option value="EUR">EUR / Euro</option>
+                <option value="JPY">JPY / Yen</option>
+                <option value="CAD">CAD / Dollar</option>
+                <option value="RUB">RUB / Ruble</option>
+                <option value="INR">INR / Rupee</option>
+            </select>
+        </div>
+
+        <div class="select-wrapper">
+            <img src="./img/USA.png" alt="flag" width="50" height="50" id="img2">
+            <select class="first-currency" id="currency2">
+                <option value="USD">USD / Dollar</option>
+                <option value="UZS">UZS / Sum</option>
+                <option value="AUD">AUD / Dollar</option>
+                <option value="EUR">EUR / Euro</option>
+                <option value="JPY">JPY / Yen</option>
+                <option value="CAD">CAD / Dollar</option>
+                <option value="RUB">RUB / Ruble</option>
+                <option value="INR">INR / Rupee</option>
+            </select>
+        </div>
+       
+        <button type="submit" id="convert">convert</button>
+        <div class="span-wrapper">
+            <h2 id="h2">0</h2>
+            <span id="span">USD</span>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
